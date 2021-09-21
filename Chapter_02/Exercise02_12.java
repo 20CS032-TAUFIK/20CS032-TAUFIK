@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.text.DecimalFormat;
 
 /*
@@ -16,7 +17,7 @@ public class Exercise02_12
 {
     public static void main(String[] args)
     {
-        java.util.Scanner input = new java.util.Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
         System.out.print("Enter speed and acceleration: ");
         
