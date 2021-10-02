@@ -14,6 +14,7 @@ public class Exercise05_33 {
    public static void main(String[] args) {
     
         long millis = System.currentTimeMillis();
+        System.out.println("Milisconds since 1970: "+millis);
         Date date = new Date(millis) ; 
         String mydateFormat = "MMM dd, yyyy  hh:mm:ss "; //date output format in given program
         SimpleDateFormat sdf = new SimpleDateFormat(mydateFormat); 
